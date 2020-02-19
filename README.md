@@ -1,9 +1,10 @@
-echo "# hellogo" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/amartelr/hellogo.git
-git push -u origin master
-…or push an existing repository from the command line
-git remote add origin https://github.com/amartelr/hellogo.git
-git push -u origin master
+## Let's Walk
+
+```bash
+go get -u -v github.com/lxn/walk
+go get -u -v github.com/akavel/rsrc
+rsrc -manifest test.manifest -o rsrc.syso
+go build
+
+
+```
