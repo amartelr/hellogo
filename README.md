@@ -1,10 +1,8 @@
-## Let's Walk
+# Restful Samples
+
+## Go's net/http package
 
 ```bash
-go get -u -v github.com/lxn/walk
-go get -u -v github.com/akavel/rsrc
-rsrc -manifest test.manifest -o rsrc.syso
-go build
-
-
+go run basicHandler.go
+curl -X GET http://localhost:8000/hello
 ```
